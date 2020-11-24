@@ -1,5 +1,6 @@
 # ShortcutsPrintService
-a simple print service for thermal POS printers.
+
+A simple print service for thermal POS printers.
 
 In Action: https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/
 
@@ -36,12 +37,12 @@ Start the server:
 $ node server
 ```
 
-Update the server IP in you shortcut (links to my simple shortcuts are below) to the ip displayed when starting the server.
+Update the server IP in you shortcut (links to my simple shortcuts are below) to the IP displayed when starting the server.
 ```
-Listening at http://192.168.178.32:3344
+Listening at http://{YOUR_SERVER_IP}:3344
 ```
 
-And that's it! You're go to go. Enjoy!
+And that's it! You're good to go. Enjoy!
 
 ### Shortcuts
 - [Print My Shopping List](https://www.icloud.com/shortcuts/d9cff80cc69744b185fa12f2256f362f)
