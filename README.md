@@ -1,6 +1,8 @@
 # ShortcutsPrintService
 a simple print service for thermal POS printers.
 
+In Action: https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/?sort=new
+
 ### Getting Started
 First of all clone this repo
 ```
