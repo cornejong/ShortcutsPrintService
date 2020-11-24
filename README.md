@@ -39,4 +39,5 @@ And that's it! You're go to go. Enjoy!
 - Add Global settings (eg: pinter IP)
 - Write gettings started guide
 - implement all user suggested features
+- add SSL to the server
 - A lot more.. :)
