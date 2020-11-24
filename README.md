@@ -17,7 +17,7 @@ $ npm install
 
 Get your printer IP address and update the addresses in the printer config (found in server.js)
 For a full list of options check the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package.
-```
+```JS
 /* Define the printer config for the app */
 /* Since you probably just use a single printer */
 app.printer = {
