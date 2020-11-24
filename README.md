@@ -25,7 +25,7 @@ Start the server:
 $ node server
 ```
 
-Updat the server IP in you shortcut (links to my simple shortcuts are below) to the ip displayed when starting the server.
+Update the server IP in you shortcut (links to my simple shortcuts are below) to the ip displayed when starting the server.
 ```
 Listening at http://192.168.178.32:3344
 ```
