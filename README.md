@@ -14,7 +14,7 @@ Install all the node modules
 $ npm install
 ```
 
-Get your printer IP address and update the addresses in the printer config
+Get your printer IP address and update the addresses in the printer config (found in server.js)
 For a full list of options check the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package.
 ```
 /* Define the printer config for the app */
@@ -49,7 +49,6 @@ And that's it! You're go to go. Enjoy!
 - [Print Multiple Lyrics Of This Song](https://www.icloud.com/shortcuts/52670a95db4848959841a2368d93c7b4) (Requires Shazam)
 
 ### Todo:
-- Add Global settings (eg: pinter IP)
 - Write gettings started guide
 - implement all user suggested features
 - add SSL to the server
