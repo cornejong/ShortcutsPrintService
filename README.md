@@ -49,6 +49,7 @@ And that's it! You're go to go. Enjoy!
 - [Print Multiple Lyrics Of This Song](https://www.icloud.com/shortcuts/52670a95db4848959841a2368d93c7b4) (Requires Shazam)
 
 ### Todo:
+- fix the word break bug for longer sentences
 - Write gettings started guide
 - implement all user suggested features
 - add SSL to the server
