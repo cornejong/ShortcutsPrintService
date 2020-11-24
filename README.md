@@ -53,4 +53,5 @@ And that's it! You're good to go. Enjoy!
 - Write gettings started guide
 - implement all user suggested features
 - add SSL to the server
+- Do video tutorial(s)
 - A lot more.. :)
