@@ -14,10 +14,21 @@ Install all the node modules
 $ npm install
 ```
 
-Get your printer IP address and update the addresses in the server routes: (Yes this will become some sort of global thing)
+Get your printer IP address and update the addresses in the printer config
+For a full list of options check the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package.
 ```
-./routes/shopping-list.js [line 12]:  interface: "tcp://192.168.178.157",
-./routes/song-lyrics.js   [line 16]:  interface: "tcp://192.168.178.157",
+/* Define the printer config for the app */
+/* Since you probably just use a single printer */
+app.printer = {
+  type: PrinterTypes.EPSON,
+  interface: "tcp://{YOUR_PRINTER_IP}",
+  characterSet: "SLOVENIA",
+  removeSpecialCharacters: false,
+  lineCharacter: "=",
+  options: {
+      timeout: 5000,
+  },
+};
 ```
 
 Start the server:
