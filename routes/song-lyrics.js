@@ -1,5 +1,4 @@
 const ThermalPrinter = require("node-thermal-printer").printer;
-const PrinterTypes = require("node-thermal-printer").types;
 const scraper = require("azlyrics-scraper");
 const Entities = require('html-entities').Html5Entities
 const entities = new Entities();
@@ -11,25 +10,16 @@ module.exports = function (app) {
      * Print Shopping list Endpoint
      */
     app.post('/print/song-lyrics', async function (req, res) {
-        let printer = new ThermalPrinter({
-            type: PrinterTypes.EPSON,
-            interface: "tcp://192.168.178.157",
-            characterSet: "SLOVENIA",
-            removeSpecialCharacters: false,
-            lineCharacter: "=",
-            options: {
-                timeout: 5000,
-            },
-        });
+        /* Setup the printer */
+        let printer = new ThermalPrinter(app.printer);
 
-        let printerIsConnected = await printer.isPrinterConnected(); // Check if printer is connected, return bool of status
-        if (printerIsConnected !== true) {
+        /* Lets check if we're connected */
+        if (!await printer.isPrinterConnected()) {
             res.send('Could not connect to printer!');
             return;
         }
 
         let data = JSON.parse(JSON.stringify(req.body));
-        let times = data.times;
             
         try {
             data.lyrics = await scraper.getLyric(data.artist + ' - ' + data.title);
@@ -38,7 +28,8 @@ module.exports = function (app) {
             return;
         }
 
-        for (let index = 0; index < (times - 1); index++) {
+        let status = true;
+        for (let index = 1; index <= data.times; index++) {
             status = await print(printer, data);
             
             if (status !== true) {
@@ -47,7 +38,7 @@ module.exports = function (app) {
             }
         }
 
-        if (status !== true) {
+        if (!status) {
             res.send('An error occurred while printing the lyrics!');
         } else {
             res.send('Successfully printed the lyrics to ' + data.artist + '\'s ' + data.title);

@@ -1,5 +1,4 @@
 const ThermalPrinter = require("node-thermal-printer").printer;
-const PrinterTypes = require("node-thermal-printer").types;
 
 module.exports = function (app) {
 
@@ -7,19 +6,9 @@ module.exports = function (app) {
      * Print Shopping list Endpoint
      */
     app.post('/print/shopping-list', async function (req, res) {
-        let printer = new ThermalPrinter({
-            type: PrinterTypes.EPSON,
-            interface: "tcp://192.168.178.157",
-            characterSet: "SLOVENIA",
-            removeSpecialCharacters: false,
-            lineCharacter: "=",
-            options: {
-                timeout: 5000,
-            },
-        });
+        let printer = new ThermalPrinter(app.printer);
 
-        let printerIsConnected = await printer.isPrinterConnected(); // Check if printer is connected, return bool of status
-        if (!printerIsConnected) {
+        if (!await printer.isPrinterConnected()) {
             res.send('Could not connect to printer!');
             return;
         }
