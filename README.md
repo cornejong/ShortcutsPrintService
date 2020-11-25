@@ -1,7 +1,7 @@
 # ShortcutsPrintService
 
 A simple print service for thermal POS printers.
-Works with most of the POS printers. (thanks to the node-thermal-printer folks)
+Works with most of the POS printers. (thanks to the ```node-thermal-printer``` folks)
 
 If you wanna know more about printer support? Please checkout the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package i've used.
 
