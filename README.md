@@ -1,6 +1,7 @@
 # ShortcutsPrintService
 
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/2be0fd26c40845c8a1de03c5f003f444)](https://app.codacy.com/gh/cornejong/ShortcutsPrintService?utm_source=github.com&utm_medium=referral&utm_content=cornejong/ShortcutsPrintService&utm_campaign=Badge_Grade)
+<a href="https://www.buymeacoffee.com/cornedejong" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 20px !important;" ></a>
 
 A simple print service for thermal POS printers.
 Works with most of the POS printers. (thanks to the ```node-thermal-printer``` folks)
