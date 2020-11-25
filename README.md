@@ -1,7 +1,9 @@
 # ShortcutsPrintService
 
 A simple print service for thermal POS printers.
-Works with most of the network equiped POS printers. If you wanna know more, please check the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package i've used.
+Works with most of the network equiped POS printers. 
+
+If you wanna know more about printer support? Please checkout the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package i've used.
 
 In Action: https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/
 
