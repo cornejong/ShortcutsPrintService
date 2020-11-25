@@ -54,10 +54,16 @@ I'll add a more generic list print endpoint in the future to let you print any l
 
 And that's it! You're good to go. Enjoy!
 
-### Shortcuts
+## Shortcuts
 - [Print My Shopping List](https://www.icloud.com/shortcuts/9390d1f857164741b00721cdd9ae14fb) ([In Action](https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/))
 - [Print The Lyrics To This Song](https://www.icloud.com/shortcuts/e4a20991dea44677bbd4e59e991946be) (Requires Shazam)
 - [Print Multiple Lyrics Of This Song](https://www.icloud.com/shortcuts/52670a95db4848959841a2368d93c7b4) (Requires Shazam)
+
+## Contributing
+
+If you have suggestions for how {{ name }} could be improved, or want to report a bug, open an issue! We'd love all and any contributions.
+
+For more, check out the [Contributing Guide](CONTRIBUTING.md).
 
 ### Todo:
 - explore option to add upnp "normal" printer support
