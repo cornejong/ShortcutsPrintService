@@ -5,9 +5,12 @@ Works with most of the POS printers. (thanks to the ```node-thermal-printer``` f
 
 If you wanna know more about printer support? Please checkout the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package i've used.
 
+### Recomendation: 
+Lets be kind to our planet, get yourself some eco friendly paper for your printer: [Read more](https://www.starmicronics.com/blog/eco-friendly-receipts/)
+
 In Action: https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/
 
-### Getting Started
+## Getting Started
 First of all clone this repo
 ```
 $ git clone git@github.com:cornejong/ShortcutsPrintService.git
