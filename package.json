@@ -14,9 +14,6 @@
     "scshortserver" : "./server.js"
   },
   "devDependencies": {},
-  "config" : { 
-    "port" : "3344" 
-  },
   "scripts": {
     "start": "node server.js"
   },
