@@ -14,8 +14,15 @@
     "scshortserver" : "./server.js"
   },
   "devDependencies": {},
+  "config" : { 
+    "port" : "3344" 
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server.js"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/cornejong/ShortcutsPrintService.git"
   },
   "author": { 
     "name" : "Corné de Jong",

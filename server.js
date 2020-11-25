@@ -3,7 +3,8 @@ const express = require('express');
 const app = express();
 
 const ip = require("ip");
-const port = 3344;
+/* You can update the port from the package.json file within the config object */
+const port = process.env.npm_package_config_port;
 
 /* Auto parse json request body */
 app.use(express.json()); 
