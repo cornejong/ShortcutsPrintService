@@ -48,7 +48,7 @@ Listening at http://{YOUR_SERVER_IP}:3344
 And that's it! You're good to go. Enjoy!
 
 ### Shortcuts
-- [Print My Shopping List](https://www.icloud.com/shortcuts/d9cff80cc69744b185fa12f2256f362f)
+- [Print My Shopping List](https://www.icloud.com/shortcuts/d9cff80cc69744b185fa12f2256f362f) [Check the vid](https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/)
 - [Print The Lyrics To This Song](https://www.icloud.com/shortcuts/e4a20991dea44677bbd4e59e991946be) (Requires Shazam)
 - [Print Multiple Lyrics Of This Song](https://www.icloud.com/shortcuts/52670a95db4848959841a2368d93c7b4) (Requires Shazam)
 
