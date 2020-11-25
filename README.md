@@ -45,10 +45,13 @@ Update the server IP in you shortcut (links to my simple shortcuts are below) to
 Listening at http://{YOUR_SERVER_IP}:3344
 ```
 
+Check the shopping list "Get Contents From URL" actions JSON body for the heading text on the shopping list. 
+I'll add a more generic list print endpoint in the future to let you print any list easily.
+
 And that's it! You're good to go. Enjoy!
 
 ### Shortcuts
-- [Print My Shopping List](https://www.icloud.com/shortcuts/d9cff80cc69744b185fa12f2256f362f) ([In Action](https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/))
+- [Print My Shopping List](https://www.icloud.com/shortcuts/9390d1f857164741b00721cdd9ae14fb) ([In Action](https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/))
 - [Print The Lyrics To This Song](https://www.icloud.com/shortcuts/e4a20991dea44677bbd4e59e991946be) (Requires Shazam)
 - [Print Multiple Lyrics Of This Song](https://www.icloud.com/shortcuts/52670a95db4848959841a2368d93c7b4) (Requires Shazam)
 
