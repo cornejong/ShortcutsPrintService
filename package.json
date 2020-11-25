@@ -1,8 +1,8 @@
 {
-  "name": "thermalprintservice",
+  "name": "shortcuts-print-service",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "dependencies": {
     "azlyrics-scraper": "^1.0.6",
     "express": "^4.17.1",
@@ -10,10 +10,17 @@
     "ip": "^1.1.5",
     "node-thermal-printer": "^4.1.2"
   },
+  "bin" : { 
+    "scshortserver" : "./server.js"
+  },
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": { 
+    "name" : "Corné de Jong",
+    "email" : "me@corne.co",
+    "url" : "http://corne.co/"
+  },
   "license": "ISC"
 }
