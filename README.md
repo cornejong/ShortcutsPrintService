@@ -57,7 +57,7 @@ Listening at http://{YOUR_SERVER_IP}:3344
 Check the shopping list "Get Contents From URL" actions JSON body for the heading text on the shopping list. 
 I'll add a more generic list print endpoint in the future to let you print any list easily.
 
-And that's it! You're good to go. Enjoy!
+And that's it! You're good to go. Enjoy!!
 
 ## Shortcuts
 - [Print My Shopping List](https://www.icloud.com/shortcuts/9390d1f857164741b00721cdd9ae14fb) ([In Action](https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/))
