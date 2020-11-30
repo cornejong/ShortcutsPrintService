@@ -8,7 +8,7 @@ Works with most of the POS printers. (thanks to the ```node-thermal-printer``` f
 
 If you wanna know more about printer support? Please checkout the [thermal printer](https://www.npmjs.com/package/node-thermal-printer) node package i've used.
 
-Uppon many requests: [Here is the printer I used](https://bit.ly/35WJ86w). 
+Upon many requests: [Here is the printer I used](https://bit.ly/35WJ86w). 
 
 In Action: https://www.reddit.com/r/shortcuts/comments/jzh9y3/built_an_automation_that_prints_my_ios_shopping/
 
